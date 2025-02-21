@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/*CELULARES*/
+
+@media (min-width: 380px) {
+    .botoes {
+        position: absolute;
+        left: 22%;
+        transform: translate(-22%);
+        display: flex;
+        margin: auto;
+        width: 20%;
+    }
+
+    footer {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/*tablets*/
+
+@media (min-width:481px) and (max-width:768px){
+    .botoes {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+        margin: auto;
+        width: 40%;
+        height: 10vh;
+    }
+
+    footer {
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+    }
+}
+
+/*Notebooks*/
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    header {
+        width: 50vw;
+        font-size: 18px;
+    }
+    .container-hora {
+        width: 60vw;
+        height: 30vh;
+    }
+    #tempo {
+        font-size: 62px;
+    }
+    .botoes {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+        margin: auto;
+        width: 50%;
+        height: 10vh;
+        font-size: 22px;
+    }
+
+    footer {
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+    }
+}
+
+/*Desktops*/
+
+@media (min-width:1024px) {
+    .botoes {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+        margin: auto;
+        width: 30%;
+        height: 10vh;
+    }
+
+    footer {
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+    }
+}

@@ -4,12 +4,10 @@
 
 @media (min-width: 380px) {
     .botoes {
-        position: absolute;
-        left: 22%;
-        transform: translate(-22%);
         display: flex;
+        justify-content: center;
         margin: auto;
-        width: 20%;
+        width: 100%;
     }
 
     footer {
@@ -22,12 +20,10 @@
 
 @media (min-width:481px) and (max-width:768px){
     .botoes {
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%);
         display: flex;
+        justify-content: center;
         margin: auto;
-        width: 40%;
+        width: 100%;
         height: 10vh;
     }
 
@@ -53,12 +49,10 @@
         font-size: 62px;
     }
     .botoes {
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%);
         display: flex;
+        justify-content: center;
         margin: auto;
-        width: 50%;
+        width: 100%;
         height: 10vh;
         font-size: 22px;
     }
@@ -79,7 +73,7 @@
         transform: translate(-50%);
         display: flex;
         margin: auto;
-        width: 30%;
+        width: 100%;
         height: 10vh;
     }
 

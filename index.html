@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronôometro Jvascript</title>
+    <link rel="stylesheet" href="src/styles/css-global.css">
+</head>
+<body>
+    <header><h1>Seja Bem-Vindo ao Seu Cronometro Virtual!</h1></header>
+
+    <main>
+        <div class="container-hora">
+            <h1 id="tempo">00:00:00:000</h1>
+        </div>
+        <div class="botoes">
+            <button class="pause" onclick="pause()">Pausar</button>
+            <button class="start" onclick="start()">Iniciar</button>
+            <button class="restart" onclick="restart()">Reiniciar</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Projeto Criado por Thiago Santos &copy;</p>
+    </footer>
+    <script src="src/script/script.js"></script>
+</body>
+</html>

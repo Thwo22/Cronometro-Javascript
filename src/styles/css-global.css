@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --font-hour {
+        font-family: "Orbitron", serif;
+    }
+}
+@font-face {
+    font-family: "fonte-hora";
+    src: url(../fonte/DS-DIGI.TTF);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: linear-gradient(to top, #181818, black);
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+header {
+    margin: 3em auto;
+    text-align: center;
+    color: white;
+}
+header h1 {
+    font-family: "Orbitron", serif;
+}
+
+.container-hora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    border: white solid 2px;
+    margin: auto;
+    width: 20em;
+    height: 45vh;
+    border-radius: 10px;
+    position: relative;
+    font-family:var(--font-hour);
+}
+#tempo {
+    font-family: "fonte-hora" ;
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+.botoes {
+    display: flex;
+    margin: auto;
+    width: 20%;
+}
+
+button{
+    all: unset;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.pause:hover {
+    background-color: brown;
+}
+.start:hover {
+    background-color: lightgreen;
+}
+.restart:hover {
+    background-color: coral;
+}
+
+.restart:hover, .start:hover, .pause:hover {
+    transition-duration: 0.3s;
+}
+
+footer {
+    position: absolute;
+    left: 50%;
+    bottom: 3%;
+    transform: translate(-50%);
+    color: white;
+}

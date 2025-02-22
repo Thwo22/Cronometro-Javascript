@@ -2,7 +2,7 @@
 
 /*CELULARES*/
 
-@media (min-width: 380px) {
+@media (min-width: 360px) {
     .botoes {
         display: flex;
         justify-content: center;

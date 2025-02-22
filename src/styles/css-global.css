@@ -70,25 +70,38 @@ button{
     border: 2px solid white;
     color: white;
     text-align: center;
+    font-family:  "Orbitron", serif;
     padding: 10px;
     margin: 10px;
     width: 100px;
+    height: 25px;
     border-radius: 20px;
     cursor: pointer;
 }
 
+button:hover {
+    font-size: 18px;
+}
+
 .pause:hover {
-    background-color: brown;
+    border: brown 2px solid;
+    background-color: rgba(165, 42, 42, 0.144);
 }
 .start:hover {
-    background-color: lightgreen;
+    border: lightgreen 2px solid;
+    background-color: rgb(144, 238, 144, 0.144);
 }
 .restart:hover {
-    background-color: coral;
+    border: coral 2px solid;
+    background-color: rgb(255, 127, 80, 0.144);
 }
 
 .restart:hover, .start:hover, .pause:hover {
     transition-duration: 0.3s;
+}
+
+.especial {
+    color: blueviolet;
 }
 
 footer {

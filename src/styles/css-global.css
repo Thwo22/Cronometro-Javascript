@@ -63,6 +63,7 @@ header h1 {
     display: flex;
     margin: auto;
     width: 20%;
+    overflow-y: hidden;
 }
 
 button{
